@@ -1,0 +1,16 @@
+<div class="btn-group" role="group" aria-label="Basic example">
+    <button type="button" 
+      class="btn" [ngClass]="{ 'active' : isValue == 'all' }" (click)="toggle1()" 
+      >A L L<span class="all">{{' ('+all+')'}}</span>
+    </button>
+
+    <button type="button"
+     class="btn" [ngClass]="{ 'active' : isValue == 'free' }" (click)="toggle2()"
+     >F R E E<span class="free">{{' ('+free+')'}}</span>
+    </button>
+
+    <button type="button"
+     class="btn" [ngClass]="{ 'active' : isValue == 'premium' }" (click)="toggle3()"
+     >P R E M I U M<span class="premium">{{' ('+premium+')'}}</span>
+    </button>
+</div>

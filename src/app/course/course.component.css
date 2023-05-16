@@ -1,0 +1,47 @@
+.course-card{
+    width: 220px;
+    height: 320px;
+    margin: 10px 10px;
+    background-color: #F8F9f9;
+}
+.course-name{
+    text-align: center;
+}
+.course-description{
+    padding: 0px 15px;
+    font-size: 12px;
+    
+}
+.deatails{
+    display: flex;
+    margin-top: -20px;
+}
+.card-header{
+    text-align: center;
+    background-color: rgb(236, 239, 240);
+    border-radius: 5px 5px 0px 0px;
+    padding: 8px 0px;
+    font-weight: 900;
+    color:  rgba(110, 101, 101, 0.678) ;
+}
+.card-deck{
+    background-color: rgb(236, 239, 240);
+    opacity: 1;
+    margin-top: 20px; 
+    opacity: 0.88;
+}
+.card{
+    background-color: rgb(236, 239, 240);
+    margin-top:5px;
+    max-height: 500px;
+    padding: 0px 0px;
+}
+.card:hover{
+    z-index: 1;
+    background-color: rgb(236, 239, 240);
+    transform: scaleX(1.1);
+   
+}
+.card-footer{
+    padding: 10px 0px;
+}
